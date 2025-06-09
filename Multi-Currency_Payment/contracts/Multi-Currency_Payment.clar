@@ -146,7 +146,6 @@
     )
   )
 )
-
 ;; Update merchant balance
 (define-private (update-merchant-balance (merchant principal) (currency (string-ascii 3)) (amount uint))
   (let 
