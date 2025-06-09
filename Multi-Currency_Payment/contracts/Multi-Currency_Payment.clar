@@ -108,7 +108,6 @@
     (ok payment-id)
   )
 )
-
 ;; Process payment (in STX for simplicity, real implementation would handle multiple currencies)
 (define-public (process-payment (payment-id (string-ascii 64)))
   (let 
