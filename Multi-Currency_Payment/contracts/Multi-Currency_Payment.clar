@@ -187,7 +187,6 @@
     )
   )
 )
-
 ;; Get payment information
 (define-read-only (get-payment (payment-id (string-ascii 64)))
   (map-get? payments { payment-id: payment-id })
