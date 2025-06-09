@@ -60,7 +60,6 @@
       { enabled: true, exchange-rate-usd: u500000, decimal-places: u6 })
   )
 )
-
 ;; Initialize the contract
 (init-currencies)
 
